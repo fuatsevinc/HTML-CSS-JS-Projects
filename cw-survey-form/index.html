@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+
+<body>
+    <div id="container">
+    <header>
+        <h1>Fuat Sevinc Survey Form</h1>
+        <h2>Thank you for taking the time to help us improve the platform</h2>
+    </header>
+    <form id="survery-form">
+        <div class="form-group">
+        <label for="neme">Name:</label>
+        <br>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <label for="surname">Surname:</label>
+        <br>
+        <input type="text" id="surname" placeholder="Enter your Surname">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" placeholder="Enter your email adress">
+        <br>
+        <p>Which option best describes your current role?</p>
+        <select name="dropdown" id="selection">
+            <option disabled selected value>Select current role</option>
+            <option value="school">Student</option>
+            <option value="school">Teacher</option>
+            <option value="job">Full Time Job</option>
+            <option value="job">Part Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="preferno">Prefer not to say</option>
+        </select>
+        <br>
+        <p>Would you recommend Clarusway to a friend?</p>
+        <input type="radio" name="recommend" id="input-radio" checked>
+        <label for="input-radio">Definitely, Yes!</label>
+        <br>
+        <input type="radio" name="recommend" id="input-radio" >
+        <label for="input-radio">May be</label>
+        <br>
+        <input type="radio" name="recommend" id="input-radio" >
+        <label for="input-radio">Not sure</label>
+        <br>
+        <input type="radio" name="recommend" id="input-radio" >
+        <label for="input-radio">Definitely, No!</label>
+        <br>
+        <p>What is your favourite featured of Clarusway?</p>
+        <br>
+        <select name="favoruite" id="favourite">
+            <option disabled selected value>Select an option</option>
+            <option value="courses">Courses</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="mentors">Mentors</option>
+        </select>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" name="prefer" id="improvement">
+        <label for="improvement">Front-end Projects</label>
+        <br>
+        <input type="checkbox" name="prefer" id="improvement">
+        <label for="improvment">Back-end Projects</label>
+        <br>
+        <input type="checkbox" name="prefer" id="improvement">
+        <label for="improvment">Data Science</label>
+        <br>
+        <input type="checkbox" name="prefer" id="improvement">
+        <label for="improvment">Additional Courses</label>
+        <br><br>
+        <p>Any comments or suggestions?</p>
+        <br>
+        <textarea name="suggestions" id="comment" cols="40" rows="5" placeholder="Enter your comment dudes..."></textarea>
+        <input type="button" value="submit">
+    </div>
+    </form>
+    <canvas id="c"></canvas> 
+    <script> 
+        var c = document.getElementById("c"); 
+        var ctx = c.getContext("2d"); 
+         
+        //making the canvas full screen 
+        c.height = window.innerHeight; 
+        c.width = window.innerWidth; 
+         
+        //chinese characters - taken from the unicode charset 
+        var chinese = "101010111001010111110101010100100101010111100001001010"; 
+        //converting the string into an array of single characters 
+        chinese = chinese.split(""); 
+         
+        var font_size = 18; 
+        var columns = c.width/font_size; //number of columns for the rain 
+        //an array of drops - one per column 
+        var drops = []; 
+        //x below is the x coordinate 
+        //1 = y co-ordinate of the drop(same for every drop initially) 
+        for(var x = 0; x < columns; x++) 
+            drops[x] = 1;  
+         
+        //drawing the characters 
+        function draw() 
+        { 
+            //Black BG for the canvas 
+            //translucent BG to show trail 
+            ctx.fillStyle = "rgba(0, 0, 0, 0.05)"; 
+            ctx.fillRect(0, 0, c.width, c.height); 
+             
+            ctx.fillStyle = "#0F0"; //green text 
+            ctx.font = font_size + "px arial"; 
+            //looping over drops 
+            for(var i = 0; i < drops.length; i++) 
+            { 
+                //a random chinese character to print 
+                var text = chinese[Math.floor(Math.random()*chinese.length)]; 
+                //x = i*font_size, y = value of drops[i]*font_size 
+                ctx.fillText(text, i*font_size, drops[i]*font_size); 
+                 
+                //sending the drop back to the top randomly after it has crossed the screen 
+                //adding a randomness to the reset to make the drops scattered on the Y axis 
+                if(drops[i]*font_size > c.height && Math.random() > 0.975) 
+                    drops[i] = 0; 
+                 
+                //incrementing Y coordinate 
+                drops[i]++; 
+            } 
+        } 
+         
+        setInterval(draw, 33); 
+        </script>
+      <audio src="deneme.mp3" controls autoplay></audio>
+        </audio>
+    <br><br><br><br><br><br><br><br><br><br>
+    </div>
+</body>
+</html>

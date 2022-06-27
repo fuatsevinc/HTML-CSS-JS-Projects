@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: #EDF2F7;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: large;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+
+/* MAIN */
+
+.main {
+    width: 1000px;
+    margin: 5% auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 5px 10px rgba(162, 165, 170, 0.1);
+    border: 3px solid grey;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.card:hover {
+    border: 3px solid #FFCC00;
+    box-shadow: 5px 10px rgba(255, 204, 0, 0.1);
+}
+
+.big-card {
+    color: white;
+    width: 500px;
+}
+
+.small-card {
+    width: 250px;
+}
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.profile-photo {
+    border: 2.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    width: 50px;
+    margin-right: 17px;
+}
+
+.big-card h3 {
+    margin-bottom: 3%;
+}
+
+.small-card h3 {
+    margin-bottom: 10%
+}
+
+
+/* MAIN LEFT */
+
+.main__left {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+
+/* MAIN ROW 1 */
+
+.main__left--row1 {
+    display: flex;
+    padding-bottom: 2%;
+}
+
+.main__left__row1--card1 {
+    background-color: #733FC8;
+    margin: 0 3% 0 0;
+}
+
+.main__left__row1--card2 {
+    background-color: #49556B;
+    color: white;
+}
+
+.main__left__row1--card2 .personal-info {
+    margin-bottom: 10%;
+}
+
+
+/* MAIN ROW 2 */
+
+.main__left--row2 {
+    display: flex;
+    margin-top: 2%;
+}
+
+.main__left__row2--card1 {
+    background-color: #FFFFFF;
+    margin: 0 3% 0 0;
+}
+
+.main__left__row2--card1 .personal-info {
+    margin-bottom: 10%;
+}
+
+.main__left__row2--card2 {
+    background-color: #18202D;
+}
+
+.main__left__row2--card2 .profile-photo {
+    border-color: #733FC8;
+}
+
+
+/* MAIN RIGHT */
+
+.main__right {
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.main__right--card1 {
+    background-color: #FFFFFF;
+    height: 100%;
+    margin-left: 10%;
+    padding: 7.5%;
+}
+
+.main__right--card1 .personal-info {
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 1100px) {
+    .main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__left {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__right {
+        flex-direction: column;
+        align-items: center;
+        width: 750px;
+    }
+    .main__left--row1 {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .main__left__row1--card1 h3 {
+        margin-bottom: 7.5%;
+    }
+    .main__left--row2 {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .main__left__row2--card2 h3 {
+        margin-bottom: 7.5%;
+    }
+    .card {
+        margin: auto;
+        width: 325px;
+        height: fit-content;
+        margin: 0 0 5% 0;
+        padding: 10%;
+    }
+    .main__right--card1 {
+        padding: 5%;
+    }
+}

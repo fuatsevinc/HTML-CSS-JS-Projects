@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./assets/Ekran\ Resmi\ 2022-06-27\ 11.26.32.png);
+    display: flex;
+    justify-content: center;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.container{
+    background-color: pink;
+    padding: 1rem;
+    margin-top: 10rem;
+    border-radius: 1rem;
+    box-shadow: rgb(233, 143, 8) 0 0 5rem 3rem;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container input{
+    border-radius: 0.5rem;
+    height: 2rem;
+}
+
+.footer{
+    
+}
+.footer button{
+    background-color: rgb(224, 126, 15);
+    color: white;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 1rem;
+}

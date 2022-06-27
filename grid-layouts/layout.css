@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin: 50px 50px;
+    box-shadow: 5px 10px 5px gray;
+}
+
+
+.content1{
+    background-color: rgb(192, 189, 189);
+}
+.content2{
+    grid-column: 2/3;
+    grid-row: 1/span 2;
+    overflow: hidden;
+}
+.content3{
+    grid-column: 3/4;
+    grid-row: 1/span 2;
+    overflow: hidden;
+}
+.content4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgb(255, 153, 0);
+}
+
+.content5{
+    grid-column: 4/6;
+    grid-row: 1/span 2;
+    overflow: hidden;
+}
+
+.content6{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    background-color: rgba(128, 123, 103, 0.993);
+}
+
+.content7{
+    grid-column: 6/span 2;
+    grid-row: 1/span 2;
+    overflow: hidden;
+}
+
+.content8{
+    grid-column: 7/span 1;
+    grid-row: 2/span 1;;
+    background-color: red;
+}
+
+.content9{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.content10{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    overflow: hidden;
+}
+
+.content11{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    overflow: hidden;
+}
+
+.content12{
+    grid-column: 4/6;
+    grid-row: 3/5;
+    overflow: hidden;
+}
+
+.content13{
+    grid-column: 6/8;
+    grid-row: 3/5;
+    overflow: hidden;
+}
+.content14{
+    grid-column: 1/2;
+    grid-row: 4/span 3;
+    background-color: rgb(204, 202, 202);
+}
+.content15{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: rgb(116, 199, 116);
+}
+
+.content16{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: rgb(126, 126, 204);
+    color: white;
+}
+
+.content17{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    background-color: burlywood;
+}
+
+.content18{
+    grid-column: 7/8;
+    grid-row: 4/5;
+    background-color: rgb(168, 106, 106);
+}
+
+.content19{
+    grid-column: 2/4;
+    grid-row: 5/7;
+    overflow: hidden;
+}
+
+.content20{
+    grid-column: 4/5;
+    grid-row: 5/7;
+    overflow: hidden;
+}
+.content21{
+    grid-column: 5/6;
+    grid-row: 5/7;
+}
+
+.content22{
+    grid-column: 6/8;
+    grid-row: 5/7;
+    overflow: hidden;
+}
+
+.content23{
+    grid-column: 3/4;
+    grid-row: 6/7;
+    background-color: rgb(161, 160, 160);
+    color: white;
+}
+
+.content24{
+    grid-column: 4/5;
+    grid-row: 6/7;
+    background-color: rgb(10, 152, 177);
+}
+
+.content25{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    background-color: gray;
+    color: white;
+}
+
+.content26{
+    grid-column: 7/8;
+    grid-row: 6/7;
+    background-color: rgb(6, 71, 6);
+    color: white;
+}

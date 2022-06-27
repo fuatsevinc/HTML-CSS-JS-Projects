@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+div{
+    background-image: url("./img/bg1.jpg");
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+section{
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(126, 125, 125);
+    padding: 50px 0px 5px 0px;
+    width: 220px;
+    height: 140px;
+    outline:10px solid purple;
+    outline-offset: 15px;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+}
+
+h2{
+    margin: 20px auto;
+    text-align: center;
+}
+
+img{
+    width:400px;
+    display: flex;
+    position: absolute;
+}
+
+
+.punto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+#zero{
+    background-image: url("./img/bg2.jpg");
+}
+#first{
+    background-image: url("./img/bg3.jpg");
+}
+#second{
+    background-image: url("./img/bg4.jpg");
+}
+#third{
+    background-image: url("./img/bg.jpg");
+}
+
+@media screen and (min-width: 760px){
+    h1{
+        width: 680px;
+        height: 140px;
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    background-image: url("./hourglass-ga17662bc5_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(35, 6, 6);
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-age{
+display: flex;
+justify-content: center;
+align-content: center;
+text-align: center;
+margin: 30px;
+}
+.container-date{
+    padding: 5px;
+    color: rgb(36, 13, 13);
+    font-weight: 900;
+    background-color: rgb(199, 171, 49);
+}
+div{
+
+    margin: 30px;
+
+}
+
+#sonuc{
+    background-color: black;
+}

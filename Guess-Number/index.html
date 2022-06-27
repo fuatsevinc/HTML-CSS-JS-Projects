@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Guess The Number</h1>
+            <h2>Fuat Sevinc</h2>
+        </header>
+        <div class="main">
+            <p>Enter a number and win!</p>
+            <p>(between 1 and 100)</p>
+            <input type="number" id="inputNumber">
+            <input type="button" value="Guess!" id="button">
+        </div>
+        <div class="footer">
+            <br>
+            <span id="tahminsayisi">0</span>
+            <br>
+            <span id="sonuc">You have 10 guess rights</span>
+            <br>
+            <button onclick="window.location.reload(false)">Play Again</button>
+            <span>©Fuat Sevinc</span>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
