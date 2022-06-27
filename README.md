@@ -1,48 +1,87 @@
-# lesson_javascript_1
-
-Why Study JavaScript?
-JavaScript is one of the 3 languages all web developers must learn:
-
-   1. HTML to define the content of web pages
-
-   2. CSS to specify the layout of web pages
-
-   3. JavaScript to program the behavior of web pages
-
-Neden JavaScript Çalışmalı?
-JavaScript, tüm web geliştiricilerinin öğrenmesi gereken 3 dilden biridir :
-
-   1. Web sayfalarının içeriğini tanımlamak için HTML
-
-   2. Web sayfalarının düzenini belirtmek için CSS
-
-   3. Web sayfalarının davranışını programlamak için JavaScript
+<h1 align="center">HTML-CSS-JS-Projects</h1>
 
 
 
-*****************************************************************************************
-*****************************************************************************************
 
-Commonly Asked Questions
-How do I get JavaScript?
-Where can I download JavaScript?
-Is JavaScript Free?
-You don't have to get or download JavaScript.
+<center> ⌛ Happy Coding  ✍ </center>
 
-JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone.
+# 
+<!-- Please update value in the {}  --> 
 
-JavaScript is free to use for everyone.
+  
 
-******************************************************************************************
-******************************************************************************************
 
-Sık Sorulan Sorular
-JavaScript'i nasıl edinebilirim?
-JavaScript'i nereden indirebilirim?
-JavaScript Ücretsiz mi?
-JavaScript almanız veya indirmeniz gerekmez.
 
-JavaScript, bilgisayarınızda, tabletinizde ve akıllı telefonunuzda tarayıcınızda zaten çalışıyor.
+  
 
-JavaScript herkes için ücretsizdir.
+  
 
+  
+
+<!-- TABLE OF CONTENTS --> 
+
+ ## `Table of Contents` 
+
+  
+
+- [Overview](#overview) 
+
+- [Built With](#built-with) 
+
+- [Features](#features) 
+
+- [How to use](#how-to-use) 
+
+- [Acknowledgements](#acknowledgements) 
+
+- [Contact](#contact) 
+
+  
+
+<!-- OVERVIEW --> 
+
+
+ ## `Overview` 
+
+-Problem Statement
+- Design a page following the design in.
+![Form](movie_seat_booking.gif)
+ ## `Built With` 
+
+ 
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.--> 
+
+  
+
+<a href="#" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="html" height="60"/> </a>
+<a href="#" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/640px-CSS3_logo_and_wordmark.svg.png" alt="css" height="60"/> </a>
+
+##  `How To Use` 
+
+  
+
+<!-- This is an example, please update according to your application --> 
+
+  
+
+To clone and run this application, you'll need [Git](https://git-scm.com)  
+
+
+
+##  `Acknowledgements` 
+
+- Information for your projects 
+
+  
+ 
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Timmana&size=30&duration=6000&color=F74747&center=true&vCenter=true&lines=%F0%9F%94%97+Connect+with+me)](https://git.io/typing-svg)
+
+<p align="left">
+<a href="https://codepen.io/fuatsevinc" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="Fuat Sevinc" height="30" width="40" /></a>
+<a href="https://twitter.com/FuatSevinc_" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Fuat Sevinc" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/fuat-sevin%C3%A7-6a7969217/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fuat sevinc" height="30" width="40" /></a>
+<a href="https://www.instagram.com/fuatsevinc66/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="Fuat Sevinc" height="30" width="40" /></a>
+</p>
+- This is <a href="http://www.fuatsevinc.com" target="_blank">My Portfolio Website</a>
